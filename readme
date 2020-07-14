@@ -1,0 +1,7 @@
+To start project you need to do this
+1. run "composer install"
+2. Write all info about DB connection in .env
+3. run "php artisan migrate"
+4. run "php artisan passport:install"
+
+

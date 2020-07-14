@@ -1,0 +1,11 @@
+1. /sign-up  Route for registration. Method POST. Params : name, email, password, password_confirmation.
+2. /login Route for authentication. Method POST. Params : email, password.
+3. /logout Route for logout. Method GET. Params : Token.
+
+4. /users Route for getting all users. Method GET. Params : Token.
+5. /inviters Route for getting all inviters. Method GET. Params : Token.
+6. /friends Route for getting all friends. Method GET. Params : Token.
+
+7. /accept Route for accept the invite. Method POST. Params : inviter_id, Token.
+8. /decline Route for decline the invite. Method POST. Params : inviter_id, Token.
+9. /invite Route for invite the user. Method POST. Params : user_id, Token.
